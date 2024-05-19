@@ -1,9 +1,11 @@
 - case_name: "002"
   actions:
-    - 操作类型: "跳转"
-      网址: "https://www.baidu.com/index.htm"
+    - 操作类型: "获取元素属性值"
+      选择器: "#su"
+      属性名: "value"
+      变量名: "title0"
     - 操作类型: "输入"
       选择器: "#kw"
-      值: "鞠婧祎002"
+      值: {title0}
     - 操作类型: "单击"
       选择器: "#su"

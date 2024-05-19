@@ -2,24 +2,14 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import pytest
-from playwright.sync_api import sync_playwright
 from common.base import ActionExecutor
-from utils.read_yaml import YamlUtil
+from common import upload_cases,normal_cases,clean_cases,all_cases
+# 分三种：录入，执行，删除
 
 
-@pytest.mark.sus
-@pytest.mark.parametrize("test_case", YamlUtil("datas/login_data.yaml").read_yaml())
-def test_execute_actions(test_case):
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        context = browser.new_context()
-        page = context.new_page()
-        executor = ActionExecutor(page)
-
+class TestAllCases:
+    @pytest.mark.parametrize("test_case", normal_cases)
+    def test_execute_actions(self,test_case,main_page):
+        executor = ActionExecutor(main_page)
         actions = test_case["actions"]
         executor.execute(actions)
-
-        context.close()
-        browser.close()
-
-# 这里多写几个test_execute_actions就并行化了
