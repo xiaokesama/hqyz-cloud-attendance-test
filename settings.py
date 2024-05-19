@@ -19,3 +19,9 @@ CASE_TABLE = os.path.join(ROOT_DIR, 'datas/case_table.xlsx')
 
 # 测试报告的路径
 REPORT_PATH = os.path.join(ROOT_DIR, 'reports')
+
+# 错误截图的路径
+ERROR_SCREENSHOT_PATH = os.path.join(ROOT_DIR, 'screen_shot')
+
+# 测试用例路径
+TEST_CASE_DIR = os.path.join(ROOT_DIR, 'testcases')

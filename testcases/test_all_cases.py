@@ -11,5 +11,4 @@ class TestAllCases:
     @pytest.mark.parametrize("test_case", normal_cases)
     def test_execute_actions(self,test_case,main_page):
         executor = ActionExecutor(main_page)
-        actions = test_case["actions"]
-        executor.execute(actions)
+        executor.execute(test_case)
