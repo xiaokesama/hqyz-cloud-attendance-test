@@ -1,7 +1,6 @@
 from DrissionPage import ChromiumPage
 import re
 from common import logger
-import os
 from datetime import datetime
 import settings
 
