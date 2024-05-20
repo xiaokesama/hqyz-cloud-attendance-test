@@ -11,12 +11,17 @@ def get_opts(name):
 
 
 if __name__ == '__main__':
-    args =['-s', '-v', '--alluredir=./reports/temp',settings.TEST_CASE_DIR]
+    # -m 匹配模式
+    # --browser 浏览器类型
+    # --alluredir 存放报告的目录
+
+    args =['-s', '-v', '--alluredir', 'reports/temp',settings.TEST_CASE_DIR]
     arg = get_opts('-m')
     if arg:
         args.insert(0,'-m={}'.format(arg))
     arg = get_opts('--browser')
     if arg:
         args.insert(0,'--browser={}'.format(arg))
+    print(args)
     pytest.main(args)
     os.system('allure generate ./reports/temp -o ./reports/report --clean')
