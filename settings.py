@@ -15,7 +15,7 @@ LOG_CONFIG = {
 }
 
 # 储存用例的表格
-CASE_TABLE = os.path.join(ROOT_DIR, 'datas/case_table.xlsx')
+CASE_TABLE = os.path.join(ROOT_DIR, 'datas/cases.xlsx')
 
 # 测试报告的路径
 REPORT_PATH = os.path.join(ROOT_DIR, 'reports')
