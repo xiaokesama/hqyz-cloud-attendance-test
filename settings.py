@@ -5,6 +5,17 @@ import sys
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(ROOT_DIR)
 
+# 网页地址
+IP_ADDRESS = 'https://172.168.80.102/'
+LOGIN_URL = IP_ADDRESS + 'user/login'
+MAIN_URL = IP_ADDRESS + 'dashboard/analysis'
+
+# 账号密码
+USER_INFO = {
+    'username': 'xk123456',
+    'password': 'xk123456'
+}
+
 # 日志配置
 LOG_CONFIG = {
     'name': 'test123',
@@ -25,3 +36,5 @@ ERROR_SCREENSHOT_PATH = os.path.join(ROOT_DIR, 'screen_shot')
 
 # 测试用例路径
 TEST_CASE_DIR = os.path.join(ROOT_DIR, 'testcases')
+
+

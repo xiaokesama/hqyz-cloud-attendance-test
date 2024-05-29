@@ -8,7 +8,10 @@ from common import upload_cases,normal_cases,clean_cases,all_cases
 
 
 class TestAllCases:
-    @pytest.mark.parametrize("test_case", normal_cases)
+    @pytest.mark.all
+    @pytest.mark.parametrize("test_case", all_cases)
     def test_execute_actions(self,test_case,main_page):
         executor = ActionExecutor(main_page)
         executor.execute(test_case)
+
+    # 以后添加  @pytest.mark.upload    @pytest.mark.normal   @pytest.mark.clean

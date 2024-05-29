@@ -1,3 +1,5 @@
+from asyncio import exceptions
+
 from DrissionPage import ChromiumPage
 import re
 from common import logger
@@ -68,8 +70,23 @@ class MyAssert:
 
 class Page(ChromiumPage):
 
-    def ele_attr(self, loc, value):
-        return self.ele(loc).attr(value)
+    def get_element(self,l=[]):
+        e = self
+        for _ in l:
+            try:
+                logger.info("正在获取元素{}".format(_))
+                e = e.ele(_)
+            except Exception as e:
+                logger.error("元素{}不存在".format(_))
+                break
+        return e
+
+    # 获取元素属性
+    def ele_attr(self, *args):
+        args = list(args)
+        logger.info("元素列表".format(args))
+        e = self.get_element(args[:-1])
+        return e.attr(args[-1])
 
     def ele_input(self, loc, value):
         self.ele(loc).input(value)
@@ -91,7 +108,7 @@ class ActionExecutor(MyAssert):
 
     # 后期这是要改的，路径替换
     def parse_param(self, input_params):
-        result = re.split('[;, ]', input_params)
+        result = re.split('[;]', input_params)
         for _ in result:
             if _[0] == '{' and _[-1] == '}':
                 result[result.index(_)] = getattr(self, _[1:-1])

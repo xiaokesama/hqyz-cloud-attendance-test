@@ -41,9 +41,9 @@ class ReadXlsx:
     def get_cases(self, sheet_name=None):
         sheets = self.select_sheets(sheet_name)
         cases = []
-        case = {}
         # 遍历表格
         for sheet in sheets:
+            case = {}
             # 遍历所有行
             for row_num, row in enumerate(sheet.iter_rows(min_row=2, values_only=True), start=2):
                 # 跳过空行
@@ -65,4 +65,5 @@ class ReadXlsx:
 
 
 if __name__ == '__main__':
-    print(ReadXlsx(CASE_TABLE).get_cases("清除"))
+    print(ReadXlsx(CASE_TABLE).get_cases("all"))
+    print(ReadXlsx(CASE_TABLE).select_sheets("all"))
