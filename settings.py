@@ -5,6 +5,9 @@ import sys
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(ROOT_DIR)
 
+# 本机IP地址和端口
+LOCAL_IP = '127.0.0.1:9999'
+
 # 网页地址
 IP_ADDRESS = 'https://172.168.80.102/'
 LOGIN_URL = IP_ADDRESS + 'user/login'
@@ -25,6 +28,9 @@ LOG_CONFIG = {
     'debug':True
 }
 
+# sqlite数据库路径
+SQLITE_DB_PATH = os.path.join(ROOT_DIR, 'datas/test.db')
+
 # 储存用例的表格
 CASE_TABLE = os.path.join(ROOT_DIR, 'datas/cases.xlsx')
 
@@ -36,5 +42,13 @@ ERROR_SCREENSHOT_PATH = os.path.join(ROOT_DIR, 'screen_shot')
 
 # 测试用例路径
 TEST_CASE_DIR = os.path.join(ROOT_DIR, 'testcases')
+
+MYSQL_CONFIG = {
+    'host': "172.168.4.119",
+    'user': "xiaoke",
+    'password': "1193274986xk",
+    'database': "hqzy_attendance",
+    'charset': 'utf8'
+}
 
 

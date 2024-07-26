@@ -7,7 +7,8 @@ import base64
 import pytesseract
 from PIL import Image
 from io import BytesIO
-from settings import USER_INFO,LOGIN_URL,MAIN_URL
+from DrissionPage import ChromiumPage, ChromiumOptions
+import settings
 from time import sleep
 
 
@@ -20,12 +21,25 @@ def get_captcha_code(page):
 
 
 def login(page):
-    page.get(MAIN_URL)
+    page.get(settings.MAIN_URL)
     sleep(2)
-    while "/dashboard/analysis" not in page.url:
-        page.get(LOGIN_URL)
-        page.ele('xpath://*[@placeholder="请输入帐户名"]').input(USER_INFO['username'])
-        page.ele('xpath://*[@placeholder="请输入密码"]').input(USER_INFO['password'])
+    page.set.window.maximized()
+    sleep(2)
+    # 退出
+    # if 'dashboard/analysis' in page.url:
+    #     try:
+    #         page.ele('xpath://*[@aria-label="图标: logout"]').click()
+    #         page.ele('xpath://*[@class="ant-btn ant-btn-primary"]').click()
+    #     except Exception as e:
+    #         print(e)
+    # sleep(1)
+    # 登录
+    while "/user/login" in page.url:
+        page.ele('xpath://*[@placeholder="请输入帐户名"]').clear()
+        page.ele('xpath://*[@placeholder="请输入密码"]').clear()
+        page.ele('xpath://*[@placeholder="请输入验证码"]').clear()
+        page.ele('xpath://*[@placeholder="请输入帐户名"]').input(settings.USER_INFO['username'])
+        page.ele('xpath://*[@placeholder="请输入密码"]').input(settings.USER_INFO['password'])
         page.ele('xpath://*[@placeholder="请输入验证码"]').input(get_captcha_code(page))
         sleep(1)
 
@@ -33,14 +47,18 @@ def login(page):
 # 提供driver给测试用例
 @pytest.fixture(scope='class')
 def page():
-    page = Page()
+    co = ChromiumOptions()
+    co.ignore_certificate_errors()
+    co.set_address(settings.LOCAL_IP)
+    page = Page(addr_or_opts=co)
     login(page)
     yield page
-    page.quit()
+    # page.quit()
 
 
 # 每个case都从主页出发
 @pytest.fixture
 def main_page(page):
-    page.get(MAIN_URL)
+    # page.get(settings.MAIN_URL)
+    page.get("https://www.baidu.com")
     yield page

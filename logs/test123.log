@@ -1,72 +1,343 @@
-2024-05-20 15:50:14,832 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-20 15:50:15,131 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
-2024-05-20 15:50:15,616 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-20 15:50:15,912 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
-2024-05-20 15:57:35,877 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-20 15:57:36,182 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
-2024-05-20 15:57:36,643 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-20 15:57:36,933 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
-2024-05-21 08:57:26,387 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 08:57:26,700 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
-2024-05-21 08:57:27,179 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 08:57:27,474 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
-2024-05-21 15:21:27,101 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 15:21:37,130 ERROR [test123] [base.py (execute:125] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 15:21:37,770 INFO [test123] [base.py (execute:101] - ==========002号用例：百度搜索-梁朝伟测试开始==========
-2024-05-21 15:21:47,878 ERROR [test123] [base.py (execute:125] - ele_attr动作执行出错,进行了截图，名称为：002_百度搜索-梁朝伟.png
-2024-05-21 15:21:48,333 INFO [test123] [base.py (execute:101] - ==========003号用例：百度搜索-梁朝伟2测试开始==========
-2024-05-21 15:33:54,999 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 15:34:05,043 ERROR [test123] [base.py (execute:125] - ele_click动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 15:35:59,128 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 15:36:09,182 ERROR [test123] [base.py (execute:125] - ele_click动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 15:37:25,783 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 15:49:34,662 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 15:49:44,755 ERROR [test123] [base.py (execute:125] - ele_click动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 15:50:44,579 INFO [test123] [base.py (execute:101] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 15:50:54,676 ERROR [test123] [base.py (execute:125] - ele_click动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 16:56:39,629 INFO [test123] [base.py (execute:110] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 16:56:39,629 ERROR [test123] [base.py (execute:134] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:01:09,105 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:01:09,105 INFO [test123] [base.py (ele_attr:80] - args:['xpath://a[@href="/member/memberlist"]', './span', 'innerText']
-2024-05-21 17:01:09,106 ERROR [test123] [base.py (execute:135] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:05:11,703 INFO [test123] [base.py (execute:115] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:05:11,704 ERROR [test123] [base.py (execute:139] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:08:11,495 INFO [test123] [base.py (execute:116] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:08:11,496 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[@href="/member/memberlist"]
-2024-05-21 17:08:21,583 INFO [test123] [base.py (get_element:77] - 正在获取元素./span
-2024-05-21 17:08:21,583 ERROR [test123] [base.py (execute:140] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:09:49,701 INFO [test123] [base.py (execute:116] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:09:49,701 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[contains(@href
-2024-05-21 17:09:59,764 INFO [test123] [base.py (get_element:77] - 正在获取元素"/member/memberlist")]
-2024-05-21 17:09:59,764 ERROR [test123] [base.py (get_element:80] - 元素"/member/memberlist")]不存在
-2024-05-21 17:09:59,764 INFO [test123] [base.py (get_element:77] - 正在获取元素./span
-2024-05-21 17:09:59,764 ERROR [test123] [base.py (get_element:80] - 元素./span不存在
-2024-05-21 17:09:59,764 ERROR [test123] [base.py (execute:140] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:11:43,425 INFO [test123] [base.py (execute:117] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:11:43,425 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[contains(@href
-2024-05-21 17:11:53,484 INFO [test123] [base.py (get_element:77] - 正在获取元素"/member/memberlist")]
-2024-05-21 17:11:53,484 ERROR [test123] [base.py (get_element:80] - 元素"/member/memberlist")]不存在
-2024-05-21 17:11:53,486 ERROR [test123] [base.py (execute:141] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:15:23,286 INFO [test123] [base.py (execute:117] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:15:23,286 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[contains(@href,"/member/memberlist")]
-2024-05-21 17:15:33,331 INFO [test123] [base.py (get_element:77] - 正在获取元素./span
-2024-05-21 17:15:33,331 ERROR [test123] [base.py (get_element:80] - 元素./span不存在
-2024-05-21 17:15:33,331 ERROR [test123] [base.py (execute:141] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:19:55,228 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:19:55,229 INFO [test123] [base.py (ele_attr:87] - 元素列表
-2024-05-21 17:19:55,229 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[contains(@href,"/member/memberlist")]
-2024-05-21 17:20:05,259 INFO [test123] [base.py (get_element:77] - 正在获取元素span
-2024-05-21 17:20:05,259 ERROR [test123] [base.py (get_element:80] - 元素span不存在
-2024-05-21 17:20:05,259 ERROR [test123] [base.py (execute:142] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:36:31,731 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:36:31,731 INFO [test123] [base.py (ele_attr:87] - 元素列表
-2024-05-21 17:36:31,731 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[contains(@href,"/member/memberlist")]
-2024-05-21 17:36:41,732 INFO [test123] [base.py (get_element:77] - 正在获取元素span
-2024-05-21 17:36:41,732 ERROR [test123] [base.py (get_element:80] - 元素span不存在
-2024-05-21 17:36:41,732 ERROR [test123] [base.py (execute:142] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
-2024-05-21 17:37:37,243 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
-2024-05-21 17:37:37,243 INFO [test123] [base.py (ele_attr:87] - 元素列表
-2024-05-21 17:37:37,243 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath://a[contains(@href,"/member/memberlist")]
-2024-05-21 17:37:47,301 INFO [test123] [base.py (get_element:77] - 正在获取元素xpath:./span
-2024-05-21 17:37:47,301 ERROR [test123] [base.py (get_element:80] - 元素xpath:./span不存在
-2024-05-21 17:37:47,301 ERROR [test123] [base.py (execute:142] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-24 18:16:44,869 INFO [test123] [base.py (execute:119] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-24 18:16:44,869 INFO [test123] [base.py (ele_attr:88] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-24 18:16:44,869 INFO [test123] [base.py (get_element:79] - 正在获取元素:xpath://*[@id="su"]
+2024-07-24 18:16:44,876 INFO [test123] [base.py (execute:125] - 执行断言assertEqual，参数为:1;1
+2024-07-24 18:16:44,876 INFO [test123] [base.py (execute:149] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-24 18:26:15,837 INFO [test123] [base.py (execute:119] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-24 18:26:15,837 INFO [test123] [base.py (ele_attr:88] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-24 18:26:15,837 INFO [test123] [base.py (get_element:79] - 正在获取元素:xpath://*[@id="su"]
+2024-07-24 18:26:16,165 INFO [test123] [base.py (execute:125] - 执行断言assertEqual，参数为:1;1
+2024-07-24 18:26:16,166 INFO [test123] [base.py (execute:149] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-24 18:33:14,776 INFO [test123] [base.py (execute:107] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-24 18:33:14,777 INFO [test123] [base.py (ele_attr:76] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-24 18:33:14,777 INFO [test123] [base.py (get_element:67] - 正在获取元素:xpath://*[@id="su"]
+2024-07-24 18:33:15,055 INFO [test123] [base.py (execute:113] - 执行断言assertEqual，参数为:1;1
+2024-07-24 18:33:15,056 INFO [test123] [base.py (execute:137] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-24 18:46:45,084 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-24 18:46:45,085 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-24 18:46:45,085 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-24 18:46:55,115 ERROR [test123] [base.py (execute:130] - ele_attr动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-24 18:48:14,212 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-24 18:48:14,213 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-24 18:48:14,213 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-24 18:48:14,521 INFO [test123] [base.py (execute:110] - 执行断言assertEqual，参数为:1;1
+2024-07-24 18:48:14,522 INFO [test123] [base.py (execute:134] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 09:02:39,680 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 09:02:39,681 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 09:02:39,681 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-25 09:04:01,345 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 09:04:01,346 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 09:04:01,346 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-25 09:04:01,653 INFO [test123] [base.py (execute:110] - 执行断言assertEqual，参数为:1;1
+2024-07-25 09:04:01,654 INFO [test123] [base.py (execute:134] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 09:20:19,904 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 09:20:19,905 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 09:20:19,905 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-25 09:20:20,215 INFO [test123] [base.py (execute:110] - 执行断言assertEqual，参数为:1;1
+2024-07-25 09:20:20,216 INFO [test123] [base.py (execute:134] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 09:36:01,932 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 09:36:01,933 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 09:36:01,933 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-25 09:36:02,274 INFO [test123] [base.py (execute:110] - 执行断言assertEqual，参数为:1;1
+2024-07-25 09:36:02,275 INFO [test123] [base.py (execute:134] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 09:45:13,093 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 09:45:13,094 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 09:45:13,094 INFO [test123] [base.py (get_element:64] - 正在获取元素:xpath://*[@id="su"]
+2024-07-25 09:45:13,406 INFO [test123] [base.py (execute:110] - 执行断言assertEqual，参数为:1;1
+2024-07-25 09:45:13,407 INFO [test123] [base.py (execute:134] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 10:35:40,816 INFO [test123] [base.py (execute:105] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:35:40,816 INFO [test123] [base.py (ele_attr:72] - 准备获取元素xpath5的属性value
+2024-07-25 10:35:40,816 INFO [test123] [base.py (get_element:63] - 正在获取元素:xpath5
+2024-07-25 10:36:09,231 INFO [test123] [base.py (execute:105] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:36:09,231 INFO [test123] [base.py (ele_attr:72] - 准备获取元素xpath5的属性value
+2024-07-25 10:36:09,231 INFO [test123] [base.py (get_element:63] - 正在获取元素:xpath5
+2024-07-25 10:40:30,614 INFO [test123] [base.py (execute:105] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:40:30,614 INFO [test123] [base.py (ele_attr:72] - 准备获取元素[@id="su"]的属性value
+2024-07-25 10:40:30,615 INFO [test123] [base.py (get_element:63] - 正在获取元素:[@id="su"]
+2024-07-25 10:41:08,107 INFO [test123] [base.py (execute:105] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:41:08,107 INFO [test123] [base.py (ele_attr:72] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:41:08,107 INFO [test123] [base.py (get_element:63] - 正在获取元素:xpath://*[@id="su"]
+2024-07-25 10:41:08,114 ERROR [test123] [base.py (execute:130] - ele_input动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 10:44:55,021 INFO [test123] [base.py (execute:106] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:44:55,021 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:44:55,021 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 10:44:55,027 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 10:44:55,028 ERROR [test123] [base.py (execute:131] - ele_input动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 10:49:31,919 INFO [test123] [base.py (execute:109] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:49:31,919 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:49:31,919 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 10:49:31,925 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 10:49:31,925 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:49:31,926 INFO [test123] [base.py (ele_input:79] - 正在向输入框None填入值百度一下
+2024-07-25 10:49:31,926 ERROR [test123] [base.py (execute:134] - ele_input动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 10:51:31,707 INFO [test123] [base.py (execute:109] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:51:31,708 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:51:31,708 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 10:51:31,713 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 10:51:31,713 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:51:31,714 INFO [test123] [base.py (ele_input:79] - 正在向输入框None填入值百度一下
+2024-07-25 10:51:31,714 ERROR [test123] [base.py (execute:134] - ele_input动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 10:53:53,787 INFO [test123] [base.py (execute:109] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:53:53,788 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:53:53,788 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 10:53:53,795 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 10:53:53,795 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:53:53,796 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 10:53:53,822 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 10:53:53,822 ERROR [test123] [base.py (execute:134] - ele_click动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 10:57:26,736 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 10:57:26,737 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:57:26,737 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 10:57:26,743 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 10:57:26,743 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 10:57:26,743 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 10:57:26,764 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 10:57:26,765 ERROR [test123] [base.py (execute:136] - ele_click动作执行出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 11:00:03,481 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:00:03,482 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:00:03,482 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:00:03,489 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:00:03,489 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:00:03,489 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:00:03,516 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:00:03,517 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:00:03,766 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:00:03,767 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为:1;1
+2024-07-25 11:00:03,767 ERROR [test123] [base.py (execute:121] - 断言执行出错
+2024-07-25 11:08:35,644 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:08:35,644 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:08:35,644 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:08:35,650 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:08:35,650 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:08:35,651 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:08:35,673 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:08:35,674 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:08:35,924 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:08:35,924 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为:1;1
+2024-07-25 11:08:35,924 ERROR [test123] [base.py (execute:123] - 断言执行出错
+2024-07-25 11:08:53,943 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:08:53,943 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:08:53,943 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:08:53,951 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:08:53,951 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:08:53,951 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:08:53,970 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:08:53,971 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:08:54,211 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:08:54,211 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为:1;1
+2024-07-25 11:08:54,212 ERROR [test123] [base.py (execute:123] - 断言执行出错
+2024-07-25 11:10:17,640 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:10:17,640 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:10:17,640 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:10:17,647 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:10:17,647 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:10:17,647 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:10:17,667 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:10:17,669 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:10:17,903 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:10:17,904 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为:1;1
+2024-07-25 11:10:17,904 ERROR [test123] [base.py (execute:123] - 断言执行出错
+2024-07-25 11:13:39,731 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:13:39,732 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:13:39,732 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:13:39,764 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:13:39,764 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:13:39,765 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:13:39,786 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:13:39,787 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:13:40,024 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:13:40,025 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:13:40,025 INFO [test123] [base.py (execute:118] - 输入参数None
+2024-07-25 11:13:40,026 ERROR [test123] [base.py (execute:123] - 断言执行出错
+2024-07-25 11:16:01,829 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:16:01,829 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:16:01,829 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:16:01,962 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:16:01,963 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:16:01,963 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:16:02,001 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:16:02,002 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:16:02,260 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:16:02,260 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:16:02,262 INFO [test123] [base.py (execute:118] - 经过解析后的参数为None
+2024-07-25 11:16:23,665 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:16:23,666 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:16:23,666 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:16:23,789 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:16:23,789 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:16:23,790 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:16:23,819 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:16:23,820 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:16:24,077 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:16:24,079 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:31:22,509 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:31:22,509 INFO [test123] [base.py (ele_attr:73] - 准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:31:22,509 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:31:22,542 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:31:22,542 INFO [test123] [base.py (ele_attr:75] - 成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:31:22,542 INFO [test123] [base.py (ele_input:79] - 正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:31:22,564 INFO [test123] [base.py (ele_input:81] - 成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:31:22,565 INFO [test123] [base.py (ele_click:84] - 正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:31:22,804 INFO [test123] [base.py (ele_click:86] - 成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:31:22,805 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:31:22,805 INFO [test123] [base.py (execute:118] - 经过解析后的参数为1
+2024-07-25 11:31:22,805 INFO [test123] [base.py (execute:120] - 成功执行断言assertEqual，参数为:1;1
+2024-07-25 11:31:22,805 INFO [test123] [base.py (execute:142] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 11:33:31,404 INFO [test123] [base.py (execute:111] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:33:31,404 INFO [test123] [base.py (ele_attr:73] - ---------准备获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:33:31,404 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:33:31,435 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:33:31,435 INFO [test123] [base.py (ele_attr:75] - ---------成功获取元素xpath://*[@id="su"]的属性value
+2024-07-25 11:33:31,437 INFO [test123] [base.py (ele_input:79] - ---------正在向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:33:31,459 INFO [test123] [base.py (ele_input:81] - ---------成功向输入框xpath://*[@id="kw"]填入值百度一下
+2024-07-25 11:33:31,460 INFO [test123] [base.py (ele_click:84] - ---------正在点击按钮xpath://*[@id="su"]
+2024-07-25 11:33:31,697 INFO [test123] [base.py (ele_click:86] - ---------成功点击按钮xpath://*[@id="su"]
+2024-07-25 11:33:31,698 INFO [test123] [base.py (execute:117] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:33:31,699 INFO [test123] [base.py (execute:119] - 成功执行断言assertEqual，参数为:1;1
+2024-07-25 11:33:31,699 INFO [test123] [base.py (execute:141] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 11:35:16,875 INFO [test123] [base.py (execute:105] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:35:16,876 INFO [test123] [base.py (get_element:63] - 正在获取元素xpath://*[@id="su"]
+2024-07-25 11:35:16,910 INFO [test123] [base.py (get_element:65] - 成功在获取元素xpath://*[@id="su"]
+2024-07-25 11:35:17,169 INFO [test123] [base.py (execute:111] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:35:17,170 INFO [test123] [base.py (execute:113] - 成功执行断言assertEqual，参数为:1;1
+2024-07-25 11:35:17,170 INFO [test123] [base.py (execute:135] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 11:43:26,736 INFO [test123] [base.py (execute:104] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:43:26,736 INFO [test123] [base.py (execute:128] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 11:43:26,736 INFO [test123] [base.py (get_element:63] - 获取元素xpath://*[@id="su"]
+2024-07-25 11:43:26,770 INFO [test123] [base.py (execute:125] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 11:43:26,792 INFO [test123] [base.py (execute:125] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-25 11:43:27,034 INFO [test123] [base.py (execute:116] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:43:27,034 INFO [test123] [base.py (execute:135] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 11:59:17,688 INFO [test123] [base.py (execute:114] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:59:17,688 INFO [test123] [base.py (execute:138] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 11:59:27,794 ERROR [test123] [base.py (ele_attr:75] - 元素xpath://*[@id="su"]的属性value不存在
+2024-07-25 11:59:27,795 ERROR [test123] [base.py (execute:141] - 执行ele_attr动作出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 11:59:51,506 INFO [test123] [base.py (execute:114] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 11:59:51,506 INFO [test123] [base.py (execute:138] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 11:59:54,166 INFO [test123] [base.py (execute:135] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 11:59:54,195 INFO [test123] [base.py (execute:135] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-25 11:59:54,441 INFO [test123] [base.py (execute:126] - 执行断言assertEqual，参数为1;1
+2024-07-25 11:59:54,442 INFO [test123] [base.py (execute:149] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 15:50:24,531 INFO [test123] [base.py (execute:115] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 15:50:24,532 INFO [test123] [base.py (execute:139] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 15:50:24,564 INFO [test123] [base.py (execute:136] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 15:50:24,589 INFO [test123] [base.py (execute:136] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-25 15:50:24,826 INFO [test123] [base.py (execute:127] - 执行断言assertEqual，参数为1;1
+2024-07-25 15:50:24,827 INFO [test123] [base.py (execute:150] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-25 16:26:39,084 INFO [test123] [base.py (execute:112] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:26:39,084 INFO [test123] [base.py (execute:136] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:26:39,126 INFO [test123] [base.py (execute:133] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:26:39,141 INFO [test123] [base.py (execute:136] - 执行get_element_after_delete动作，输入参数为[None],设置参数none
+2024-07-25 16:26:39,141 INFO [test123] [base.py (execute:124] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:26:39,141 ERROR [test123] [base.py (execute:128] - 断言执行出错
+2024-07-25 16:31:19,878 INFO [test123] [base.py (execute:112] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:31:19,878 INFO [test123] [base.py (execute:136] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:31:19,912 INFO [test123] [base.py (execute:133] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:31:19,938 INFO [test123] [base.py (execute:136] - 执行get_deleted_element动作，输入参数为[None],设置参数none
+2024-07-25 16:31:19,939 INFO [test123] [base.py (execute:124] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:31:19,939 ERROR [test123] [base.py (execute:128] - 断言执行出错
+2024-07-25 16:39:08,907 INFO [test123] [base.py (execute:113] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:39:08,907 INFO [test123] [base.py (execute:137] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:39:08,939 INFO [test123] [base.py (execute:134] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:39:08,959 INFO [test123] [base.py (execute:137] - 执行get_deleted_element动作，输入参数为[None],设置参数none
+2024-07-25 16:39:08,959 INFO [test123] [base.py (execute:125] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:39:08,960 ERROR [test123] [base.py (execute:129] - 断言执行出错
+2024-07-25 16:43:56,721 INFO [test123] [base.py (execute:114] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:43:56,721 INFO [test123] [base.py (execute:138] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:43:56,755 INFO [test123] [base.py (execute:135] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:43:56,780 INFO [test123] [base.py (execute:138] - 执行get_deleted_element动作，输入参数为[None],设置参数none
+2024-07-25 16:43:56,780 ERROR [test123] [base.py (execute:141] - 执行get_deleted_element动作出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-25 16:46:49,615 INFO [test123] [base.py (execute:112] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:46:49,615 INFO [test123] [base.py (execute:136] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:46:49,649 INFO [test123] [base.py (execute:133] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:46:49,661 INFO [test123] [base.py (execute:136] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-25 16:46:59,759 INFO [test123] [base.py (execute:124] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:46:59,759 ERROR [test123] [base.py (execute:128] - 断言执行出错
+2024-07-25 16:53:00,821 INFO [test123] [base.py (execute:114] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:53:00,821 INFO [test123] [base.py (execute:138] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:53:00,856 INFO [test123] [base.py (execute:135] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:53:00,868 INFO [test123] [base.py (execute:138] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-25 16:53:10,958 ERROR [test123] [base.py (get_deleted_element:62] - 找到已被删除元素
+2024-07-25 16:53:10,958 INFO [test123] [base.py (execute:126] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:53:10,958 ERROR [test123] [base.py (execute:130] - 断言执行出错
+2024-07-25 16:54:20,057 INFO [test123] [base.py (execute:116] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:54:20,058 INFO [test123] [base.py (execute:140] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:54:20,093 INFO [test123] [base.py (execute:137] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:54:20,107 INFO [test123] [base.py (execute:140] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-25 16:54:30,164 ERROR [test123] [base.py (get_deleted_element:62] - 元素element是
+2024-07-25 16:54:30,164 ERROR [test123] [base.py (get_deleted_element:63] - 元素element类型是
+2024-07-25 16:54:30,164 ERROR [test123] [base.py (get_deleted_element:64] - 找到已被删除元素
+2024-07-25 16:54:30,164 INFO [test123] [base.py (execute:128] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:54:30,164 ERROR [test123] [base.py (execute:132] - 断言执行出错
+2024-07-25 16:55:27,471 INFO [test123] [base.py (execute:116] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:55:27,471 INFO [test123] [base.py (execute:140] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:55:27,504 INFO [test123] [base.py (execute:137] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:55:27,526 INFO [test123] [base.py (execute:140] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-25 16:55:37,582 ERROR [test123] [base.py (get_deleted_element:62] - 元素element是None
+2024-07-25 16:55:37,582 ERROR [test123] [base.py (get_deleted_element:63] - 元素element类型是<class 'DrissionPage._elements.none_element.NoneElement'>
+2024-07-25 16:55:37,582 ERROR [test123] [base.py (get_deleted_element:64] - 找到已被删除元素
+2024-07-25 16:55:37,582 INFO [test123] [base.py (execute:128] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:55:37,582 ERROR [test123] [base.py (execute:132] - 断言执行出错
+2024-07-25 16:57:24,791 INFO [test123] [base.py (execute:117] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 16:57:24,791 INFO [test123] [base.py (execute:141] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 16:57:24,825 INFO [test123] [base.py (execute:138] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 16:57:24,848 INFO [test123] [base.py (execute:141] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-25 16:57:34,913 ERROR [test123] [base.py (get_deleted_element:63] - 元素element是None
+2024-07-25 16:57:34,913 ERROR [test123] [base.py (get_deleted_element:64] - 元素element类型是<class 'DrissionPage._elements.none_element.NoneElement'>
+2024-07-25 16:57:34,913 ERROR [test123] [base.py (get_deleted_element:65] - 找到已被删除元素
+2024-07-25 16:57:34,913 INFO [test123] [base.py (execute:129] - 执行断言assertIsNone，参数为{none}
+2024-07-25 16:57:34,913 ERROR [test123] [base.py (execute:133] - 断言执行出错
+2024-07-25 17:00:45,238 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-25 17:00:45,238 INFO [test123] [base.py (execute:142] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-25 17:00:45,271 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-25 17:00:45,296 INFO [test123] [base.py (execute:142] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-25 17:00:55,345 INFO [test123] [base.py (execute:130] - 执行断言assertIsNone，参数为{none}
+2024-07-25 17:00:55,346 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-26 09:15:43,909 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:15:43,910 INFO [test123] [base.py (execute:142] - 执行ele_input动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:15:43,910 ERROR [test123] [base.py (execute:145] - 执行ele_input动作出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-26 09:16:12,676 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:16:12,677 INFO [test123] [base.py (execute:142] - 执行ele_input动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:16:12,677 ERROR [test123] [base.py (execute:145] - 执行ele_input动作出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
+2024-07-26 09:16:48,023 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:16:48,023 INFO [test123] [base.py (execute:142] - 执行ele_input动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:16:48,081 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', None]
+2024-07-26 09:16:48,095 INFO [test123] [base.py (execute:142] - 执行get_deleted_element动作，输入参数为['xpath7'],设置参数none
+2024-07-26 09:16:58,177 ERROR [test123] [base.py (get_deleted_element:64] - 元素xpath7已删除
+2024-07-26 09:16:58,178 INFO [test123] [base.py (execute:130] - 执行断言assertIsNone，参数为{none}
+2024-07-26 09:16:58,178 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-26 09:23:23,121 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:23:23,121 INFO [test123] [base.py (execute:142] - 执行ele_input动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:23:23,178 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', None]
+2024-07-26 09:23:23,206 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-26 09:23:23,488 INFO [test123] [base.py (execute:130] - 执行断言assertEqual，参数为1;1
+2024-07-26 09:23:23,489 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-26 09:23:56,566 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:23:56,567 INFO [test123] [base.py (execute:142] - 执行ele_input动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:23:56,618 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', None]
+2024-07-26 09:23:56,662 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-26 09:23:56,905 INFO [test123] [base.py (execute:130] - 执行断言assertEqual，参数为1;1
+2024-07-26 09:23:56,906 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-26 09:24:07,539 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:24:07,540 INFO [test123] [base.py (execute:142] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:24:07,574 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-26 09:24:07,586 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-26 09:24:07,834 INFO [test123] [base.py (execute:130] - 执行断言assertEqual，参数为1;1
+2024-07-26 09:24:07,834 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-26 09:24:24,723 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:24:24,724 INFO [test123] [base.py (execute:142] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:24:24,755 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-26 09:24:24,777 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-26 09:24:25,012 INFO [test123] [base.py (execute:130] - 执行断言assertEqual，参数为1;1
+2024-07-26 09:24:25,013 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-26 09:25:01,550 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:25:01,550 INFO [test123] [base.py (execute:142] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:25:01,583 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-26 09:25:01,605 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-26 09:25:01,858 ERROR [test123] [base.py (execute:125] - 参数解析出错
+2024-07-26 09:25:36,944 INFO [test123] [base.py (execute:118] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-26 09:25:36,945 INFO [test123] [base.py (execute:142] - 执行ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-26 09:25:36,977 INFO [test123] [base.py (execute:139] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-26 09:25:36,997 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-26 09:25:37,236 INFO [test123] [base.py (execute:130] - 执行断言assertEqual，参数为{value};百度一下
+2024-07-26 09:25:37,236 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========

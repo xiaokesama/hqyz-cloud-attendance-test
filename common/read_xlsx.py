@@ -1,3 +1,6 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import openpyxl
 from settings import CASE_TABLE
 
@@ -30,15 +33,16 @@ class ReadXlsx:
         if not sheet_name:
             sheets = []
             for _ in self.workbook.sheetnames:
-                if _ not in ["录入", "清除"]:
+                if _ not in ["录入", "清除",'单个']:
                     sheets.append(self.workbook[_])
             return sheets
         if sheet_name == "录入": return [self.workbook["录入"]]
         if sheet_name == "清除": return [self.workbook["清除"]]
+        if sheet_name == '单个': return [self.workbook['单个']]
         if sheet_name.lower() == "all": return self.workbook.worksheets
 
     # 获取用例列表
-    def get_cases(self, sheet_name=None):
+    def read_cases(self, sheet_name=None):
         sheets = self.select_sheets(sheet_name)
         cases = []
         # 遍历表格
@@ -51,19 +55,22 @@ class ReadXlsx:
                 # 开始读取用例id,name
                 if is_not_empty(row[0]):
                     # 保存上一个用例
-                    if row_num > 2:
-                        cases.append(case)
+                    if row_num > 2:cases.append(case)
+                    # 开始读取新的用例
                     case = {"id": row[0], "name": row[1], "actions": []}
                 # 开始读取用例step,keyword,input_param,output_param
-                if is_not_empty(row[3]):
-                    case["actions"].append(
-                        dict(step=row[2], keyword=row[3], input_param=row[4], output_param=row[5]))
+                if is_not_empty(row[3]):case["actions"].append(dict(step=row[2], keyword=row[3], input_param=row[4], output_param=row[5]))
             # 保存最后一个用例
-            if len(case) > 0:
-                cases.append(case)
+            if len(case) > 0:cases.append(case)
         return cases
+
+    def read_case_by_id(self, case_id):
+        all_cases = self.read_cases("all")
+        for case in all_cases:
+            if case["id"] == str(case_id):
+                return [case]
 
 
 if __name__ == '__main__':
-    print(ReadXlsx(CASE_TABLE).get_cases("all"))
-    print(ReadXlsx(CASE_TABLE).select_sheets("all"))
+    print(ReadXlsx(CASE_TABLE).read_cases())
+    print(ReadXlsx(CASE_TABLE).select_sheets())
