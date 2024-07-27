@@ -50,15 +50,7 @@ class MyAssert:
 
 class Page(ChromiumPage):
 
-    def get_element(self,l):
-        try:
-            element = self.ele(l)
-        except Exception as e:
-            logger.error("元素{}不存在".format(l))
-            raise e
-        return element
-
-    def get_deleted_element(self,l):
+    def my_get_deleted_ele(self,l):
         try:
             element = self.ele(l)
             if isinstance(element, DrissionPage._elements.none_element.NoneElement):
@@ -71,36 +63,51 @@ class Page(ChromiumPage):
             return "none"
 
     # 获取元素属性
-    def get_ele_attr(self, *args):
+    def my_get_ele_attr(self, *args):
         try:
             args = list(args)
-            element = self.get_element(args[0])
+            element = self.ele(args[0])
             attr = element.attr(args[1])
         except Exception as e:
             logger.error("元素{}的属性{}不存在".format(args[0], args[1]))
             raise e
         return attr
 
-    def ele_input(self, loc, value):
+    def my_input_ele_str(self, loc, value):
         try:
             self.ele(loc).input(value)
         except Exception as e:
             logger.error("向输入框{}输入{}失败".format(loc, value))
             raise e
 
-    def scroll(self, num):
+    def my_scroll(self, num):
         pyautogui.scroll(num)
 
-    def click(self, loc):
+    def my_click(self, loc):
         try:
             self.ele(loc).click()
         except Exception as e:
             logger.error("点击元素{}失败".format(loc))
             raise e
 
-    def get_page_screenshot(self,id,name):
+    def my_get_page_screenshot(self,id,name):
         # 获取报错时的页面截图，命名规范： 截图时间_xx页面_xx操作
         self.get_screenshot(path=settings.ERROR_SCREENSHOT_PATH,name="{}_{}_{}.png".format(datetime.now().strftime('%Y-%m-%d_%H-%M-%S'),id,name))
+
+    # 鼠标相对移动一定距离
+    def my_move_to(self, *args):
+        try:
+            self.actions.move_to(args)
+        except Exception as e:
+            logger.error("鼠标移动到元素{}失败".format(args))
+
+    # 通过按钮上传文件
+    def my_upload_file(self, *args):
+        try:
+            self.ele(*args[0]).click.to_upload(r'{}'.format(args[1]))
+        except Exception as e:
+            logger.error("通过元素{}上传文件{}失败".format(args[0], args[1]))
+            raise e
 
 
 class ActionExecutor(MyAssert):
@@ -128,7 +135,7 @@ class ActionExecutor(MyAssert):
             except Exception as e:
                 logger.error("参数解析出错")
                 raise e
-            # 断言部分以后写
+            # 断言
             try:
                 if "assert" in action['keyword']:
                     logger.info("执行断言{}，参数为{}".format(action['keyword'],action['input_param']))
@@ -139,12 +146,15 @@ class ActionExecutor(MyAssert):
                 raise e
             # 执行动作
             try:
+                # 判断self.page有没有该方法，如果没有就调用self.page.actions对象
+                myaction = self.page if hasattr(self.page, action['keyword']) else self.page.actions
+                # 根据有没有返回值来判断使用setattr还是使用setattr
                 if action['output_param'] is None:
                     logger.info("执行{}动作，输入参数为{}".format(action['keyword'], input_param))
-                    getattr(self.page, action['keyword'])(*input_param)
+                    getattr(myaction, action['keyword'])(*input_param)
                 else:
                     logger.info("执行{}动作，输入参数为{},设置参数{}".format(action['keyword'], input_param, action['output_param']))
-                    setattr(self, action['output_param'], getattr(self.page, action['keyword'])(*input_param))
+                    setattr(self, action['output_param'], getattr(myaction, action['keyword'])(*input_param))
             except Exception as e:
                 logger.error("执行{}动作出错,进行了截图，名称为：{}_{}.png".format(action['keyword'],test_case['id'], test_case['name']))
                 # 暂时关闭了截图，因为必须要窗口在最前面
@@ -164,12 +174,16 @@ if __name__ == '__main__':
     co.set_address("127.0.0.1:9999")
     page = Page(addr_or_opts=co)
 
-    # 新建执行器
-    ae = ActionExecutor(page)
 
-    # 读取用例
-    cases = ReadXlsx(settings.CASE_TABLE).read_case_by_id("001")
 
-    # 执行用例
-    ae.execute(cases[0])
+
+
+    # # 新建执行器
+    # ae = ActionExecutor(page)
+    #
+    # # 读取用例
+    # cases = ReadXlsx(settings.CASE_TABLE).read_case_by_id("001")
+    #
+    # # 执行用例
+    # ae.execute(cases[0])
 

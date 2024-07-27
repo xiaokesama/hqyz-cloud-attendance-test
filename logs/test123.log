@@ -341,3 +341,17 @@
 2024-07-26 09:25:36,997 INFO [test123] [base.py (execute:139] - 执行ele_click动作，输入参数为['xpath://*[@id="su"]']
 2024-07-26 09:25:37,236 INFO [test123] [base.py (execute:130] - 执行断言assertEqual，参数为{value};百度一下
 2024-07-26 09:25:37,236 INFO [test123] [base.py (execute:153] - ==========001号用例：百度搜索-鞠婧祎测试结束==========
+2024-07-27 10:35:43,256 ERROR [test123] [base.py (move_to:109] - 鼠标移动到元素(100, 100)失败
+2024-07-27 10:36:10,618 ERROR [test123] [base.py (move_to:109] - 鼠标移动到元素(100, 100)失败
+2024-07-27 10:37:12,403 ERROR [test123] [base.py (move_to:109] - 鼠标移动到元素((100, 100),)失败
+2024-07-27 10:37:12,404 ERROR [test123] [base.py (move_to:109] - 鼠标移动到元素(100, 100)失败
+2024-07-27 10:37:19,183 ERROR [test123] [base.py (move_to:109] - 鼠标移动到元素((100, 100),)失败
+2024-07-27 11:19:10,481 ERROR [test123] [base.py (click:98] - 点击元素xpath://*[@id="form"]/div/div[2]/div[2]/input失败
+2024-07-27 11:24:34,662 ERROR [test123] [base.py (click:98] - 点击元素xpath://*[@id="su"]失败
+2024-07-27 11:26:49,338 ERROR [test123] [base.py (click:98] - 点击元素xpath://*[@id="su"]失败
+2024-07-27 11:29:08,586 ERROR [test123] [base.py (click:98] - 点击元素xpath://*[@id="su"]失败
+2024-07-27 11:36:24,608 INFO [test123] [base.py (execute:129] - ==========001号用例：百度搜索-鞠婧祎测试开始==========
+2024-07-27 11:36:24,609 INFO [test123] [base.py (execute:156] - 执行get_ele_attr动作，输入参数为['xpath://*[@id="su"]', 'value'],设置参数value
+2024-07-27 11:36:24,644 INFO [test123] [base.py (execute:153] - 执行ele_input动作，输入参数为['xpath://*[@id="kw"]', '百度一下']
+2024-07-27 11:36:24,673 INFO [test123] [base.py (execute:153] - 执行click动作，输入参数为['xpath://*[@id="su"]']
+2024-07-27 11:36:24,740 ERROR [test123] [base.py (execute:159] - 执行click动作出错,进行了截图，名称为：001_百度搜索-鞠婧祎.png
