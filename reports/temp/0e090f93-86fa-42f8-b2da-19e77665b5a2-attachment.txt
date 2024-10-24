@@ -1,0 +1,6 @@
+[32mINFO    [0m test123:base.py:140 ==========001号用例：新增区域 - 区域1测试开始==========
+[32mINFO    [0m test123:base.py:164 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/div/span/span']
+[32mINFO    [0m test123:base.py:164 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/ul/li[1]/a']
+[32mINFO    [0m test123:base.py:164 执行click动作，输入参数为['xpath://*[@id="step3"]']
+[1m[31mERROR   [0m test123:base.py:171 执行click动作出错,进行了截图，名称为：001_新增区域 - 区域1.png
+[1m[31mERROR   [0m test123:base.py:176 截图出错
