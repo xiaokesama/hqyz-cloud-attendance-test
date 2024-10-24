@@ -9,13 +9,13 @@ sys.path.append(ROOT_DIR)
 LOCAL_IP = '127.0.0.1:9999'
 
 # 网页地址
-IP_ADDRESS = 'https://172.168.80.102/'
+IP_ADDRESS = 'https://172.168.80.53/'
 LOGIN_URL = IP_ADDRESS + 'user/login'
 MAIN_URL = IP_ADDRESS + 'dashboard/analysis'
 
 # 账号密码
 USER_INFO = {
-    'username': 'xk123456',
+    'username': 'autoTest',
     'password': 'xk123456'
 }
 
@@ -32,7 +32,7 @@ LOG_CONFIG = {
 SQLITE_DB_PATH = os.path.join(ROOT_DIR, 'datas/test.db')
 
 # 储存用例的表格
-CASE_TABLE = os.path.join(ROOT_DIR, 'datas/cases.xlsx')
+CASE_TABLE = os.path.join(ROOT_DIR, 'datas/cases.xlsm')
 
 # 测试报告的路径
 REPORT_PATH = os.path.join(ROOT_DIR, 'reports')

@@ -59,6 +59,6 @@ def page():
 # 每个case都从主页出发
 @pytest.fixture
 def main_page(page):
-    # page.get(settings.MAIN_URL)
-    page.get("https://www.baidu.com")
+    page.get(settings.MAIN_URL)
+    # page.get("https://www.baidu.com")
     yield page

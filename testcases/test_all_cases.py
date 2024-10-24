@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import pytest
 from common.base import ActionExecutor
 from common import *
-from common.read_xlsx import ReadXlsx
+from common.read_xls import ReadXlsx
 
 
 class TestAllCases:

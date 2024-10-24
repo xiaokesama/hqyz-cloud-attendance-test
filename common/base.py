@@ -4,14 +4,21 @@ import re
 from common import logger, loc
 from datetime import datetime
 import settings
-from common.read_xlsx import ReadXlsx
+from common.read_xls import ReadXlsx
 import pyautogui
+from time import sleep
+
+
+def re_get_chs(str):
+    return re.sub(r'[^\u4e00-\u9fa5]', '', str)
 
 
 class MyAssert:
     @staticmethod
     def assertEqual(*args):
+        logger.info("执行断言")
         for i in range(0,len(args)-1,2):
+            logger.info(f"{args[i]} == {args[i+1]}")
             assert args[i] == args[i+1], f"{args[i]} != {args[i+1]}"
 
     @staticmethod
@@ -68,6 +75,7 @@ class Page(ChromiumPage):
             args = list(args)
             element = self.ele(args[0])
             attr = element.attr(args[1])
+            logger.error("元素{}的属性{}为：{}".format(args[0], args[1], attr))
         except Exception as e:
             logger.error("元素{}的属性{}不存在".format(args[0], args[1]))
             raise e
@@ -109,6 +117,9 @@ class Page(ChromiumPage):
             logger.error("通过元素{}上传文件{}失败".format(args[0], args[1]))
             raise e
 
+    def my_click(self,loc):
+        self.ele(loc).click()
+
 
 class ActionExecutor(MyAssert):
 
@@ -118,11 +129,16 @@ class ActionExecutor(MyAssert):
     # 解析参数
     def parse_param(self, input_params):
         result = re.split('[;]', input_params)
-        for _ in result:
+        logger.info("解析参数：{}".format(result))
+        for i in range(len(result)):
             # 解析参数："设备管理.区域管理" => xpath://*[@id="su"]
-            if result.index(_) == 0 and "loc:"in _:result[result.index(_)] = loc.get_ele(_.replace("loc:",""))
-            # 解析参数：{name} => self.name
-            if _[0] == '{' and _[-1] == '}':result[result.index(_)] = getattr(self, _[1:-1])
+            if i == 0 and len(re_get_chs(result[i])) >= len(result[i]) * 0.5 and '{' not in result[i] and '}' not in result[i]:
+                result[i] = loc.get_ele(result[i].replace("loc:", ""))
+            if result[i][0] == '{' and result[i][-1] == '}':
+                result[i] = getattr(self, result[i][1:-1])
+        logger.info("解析结果：{}".format(result))
+
+
         return result
 
     def execute(self, test_case: dict) -> None:
@@ -138,8 +154,9 @@ class ActionExecutor(MyAssert):
             # 断言
             try:
                 if "assert" in action['keyword']:
-                    logger.info("执行断言{}，参数为{}".format(action['keyword'],action['input_param']))
-                    getattr(self, *self.parse_param(action['input_param']))
+                    logger.info("执行断言{}，参数为{}".format(action['keyword'],input_param))
+                    getattr(self, action['keyword'])(*input_param)
+                    sleep(1)
                     continue
             except Exception as e:
                 logger.error("断言执行出错")
@@ -152,9 +169,11 @@ class ActionExecutor(MyAssert):
                 if action['output_param'] is None:
                     logger.info("执行{}动作，输入参数为{}".format(action['keyword'], input_param))
                     getattr(myaction, action['keyword'])(*input_param)
+                    sleep(1)
                 else:
                     logger.info("执行{}动作，输入参数为{},设置参数{}".format(action['keyword'], input_param, action['output_param']))
                     setattr(self, action['output_param'], getattr(myaction, action['keyword'])(*input_param))
+                    sleep(1)
             except Exception as e:
                 logger.error("执行{}动作出错,进行了截图，名称为：{}_{}.png".format(action['keyword'],test_case['id'], test_case['name']))
                 # 暂时关闭了截图，因为必须要窗口在最前面
@@ -174,16 +193,12 @@ if __name__ == '__main__':
     co.set_address("127.0.0.1:9999")
     page = Page(addr_or_opts=co)
 
+    # 新建执行器
+    ae = ActionExecutor(page)
 
+    # 读取用例
+    cases = ReadXlsx(settings.CASE_TABLE).read_cases("单个")
 
-
-
-    # # 新建执行器
-    # ae = ActionExecutor(page)
-    #
-    # # 读取用例
-    # cases = ReadXlsx(settings.CASE_TABLE).read_case_by_id("001")
-    #
-    # # 执行用例
-    # ae.execute(cases[0])
+    # 执行用例
+    ae.execute(cases[0])
 
