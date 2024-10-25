@@ -137,8 +137,6 @@ class ActionExecutor(MyAssert):
             if result[i][0] == '{' and result[i][-1] == '}':
                 result[i] = getattr(self, result[i][1:-1])
         logger.info("解析结果：{}".format(result))
-
-
         return result
 
     def execute(self, test_case: dict) -> None:
@@ -178,7 +176,7 @@ class ActionExecutor(MyAssert):
                 logger.error("执行{}动作出错,进行了截图，名称为：{}_{}.png".format(action['keyword'],test_case['id'], test_case['name']))
                 # 暂时关闭了截图，因为必须要窗口在最前面
                 try:
-                    self.page.get_page_screenshot(test_case['id'], test_case['name'])
+                    self.page.get_screenshot(test_case['id'], test_case['name'])
                 except Exception as e2:
                     logger.error("截图出错")
                     raise e2
