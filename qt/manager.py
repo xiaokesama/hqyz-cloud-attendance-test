@@ -9,8 +9,7 @@ def get_inputs():
     name = ui.lineEdit.text()
     xpath = ui.lineEdit_2.text()
     note = ui.lineEdit_3.text()
-    parent = ui.lineEdit_4.text()
-    return name, xpath, note, parent
+    return name, xpath, note
 
 
 def showResults(results):
