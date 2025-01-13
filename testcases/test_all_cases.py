@@ -28,8 +28,9 @@ class TestAllCases:
         executor.execute(test_case)
 
     @pytest.mark.normal
-    @pytest.mark.parametrize("test_case", normal_cases)
+    @pytest.mark.parametrize("test_case", ReadXlsx(CASE_TABLE).read_cases())
     def test_execute_normal(self, test_case, main_page):
+        logger.info(f"Start to execute test case: {test_case['name']}")
         executor = ActionExecutor(main_page)
         executor.execute(test_case)
 
@@ -44,4 +45,3 @@ class TestAllCases:
     def test_execute_clean(self, test_case, main_page):
         executor = ActionExecutor(main_page)
         executor.execute(test_case)
-

@@ -1,8 +1,0 @@
-[32mINFO    [0m test123:base.py:140 ==========001号用例：新增区域 - 区域1测试开始==========
-[32mINFO    [0m test123:base.py:166 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/div/span/span']
-[32mINFO    [0m test123:base.py:166 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/ul/li[1]/a']
-[32mINFO    [0m test123:base.py:166 执行click动作，输入参数为['xpath://*[@id="step3"]']
-[32mINFO    [0m test123:base.py:166 执行my_input_ele_str动作，输入参数为[None, '区域1']
-[31m[1mERROR   [0m test123:base.py:87 向输入框None输入区域1失败
-[31m[1mERROR   [0m test123:base.py:174 执行my_input_ele_str动作出错,进行了截图，名称为：001_新增区域 - 区域1.png
-[31m[1mERROR   [0m test123:base.py:179 截图出错

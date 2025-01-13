@@ -98,6 +98,13 @@ class Page(ChromiumPage):
             logger.error("点击元素{}失败".format(loc))
             raise e
 
+    def my_to_upload(self, loc, path):
+        try:
+            self.ele(loc).click.to_upload(rf"{path}")
+        except Exception as e:
+            logger.error("向{}上传{}失败".format(loc, rf"{path}"))
+            raise e
+
     def my_get_page_screenshot(self,id,name):
         # 获取报错时的页面截图，命名规范： 截图时间_xx页面_xx操作
         self.get_screenshot(path=settings.ERROR_SCREENSHOT_PATH,name="{}_{}_{}.png".format(datetime.now().strftime('%Y-%m-%d_%H-%M-%S'),id,name))
@@ -128,7 +135,7 @@ class ActionExecutor(MyAssert):
 
     # 解析参数
     def parse_param(self, input_params):
-        result = re.split('[;]', input_params)
+        result = re.split('[;；]', input_params)
         logger.info("解析参数：{}".format(result))
         for i in range(len(result)):
             # 解析参数："设备管理.区域管理" => xpath://*[@id="su"]
@@ -173,10 +180,10 @@ class ActionExecutor(MyAssert):
                     setattr(self, action['output_param'], getattr(myaction, action['keyword'])(*input_param))
                     sleep(1)
             except Exception as e:
-                logger.error("执行{}动作出错,进行了截图，名称为：{}_{}.png".format(action['keyword'],test_case['id'], test_case['name']))
+                logger.error("执行{}动作出错,进行截图，名称为：{}_{}.png".format(action['keyword'],test_case['id'], test_case['name']))
                 # 暂时关闭了截图，因为必须要窗口在最前面
                 try:
-                    self.page.get_screenshot(test_case['id'], test_case['name'])
+                    self.page.get_screenshot("/screenshot/","{}_{}.png".format(test_case['id'],test_case['name']))
                 except Exception as e2:
                     logger.error("截图出错")
                     raise e2

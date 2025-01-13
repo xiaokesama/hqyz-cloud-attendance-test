@@ -3,7 +3,7 @@ import pandas as pd
 from DrissionPage._configs.chromium_options import ChromiumOptions
 from DrissionPage._pages.chromium_page import ChromiumPage
 import settings
-
+import re
 
 def convert_to_tree(data):
     def build_tree(node, data):
@@ -99,7 +99,7 @@ class Location:
 
     def get_ele(self, names):
         parent_id = 1
-        if isinstance(names, str):names = names.split('.')
+        if isinstance(names, str):names = re.split(r'[.\s。-]+', names)
         while len(names) > 0:
             item = [_ for _ in self.data if _[1] == names[0] and str(_[4]) == str(parent_id)]
             if len(item) == 0:return None
@@ -111,7 +111,7 @@ class Location:
 
     def get_row(self, names):
         parent_id = 1
-        if isinstance(names, str):names = names.split('.')
+        if isinstance(names, str):names = re.split(r'[.\s。-]+', names)
         while len(names) > 0:
             item = [_ for _ in self.data if _[1] == names[0] and str(_[4]) == str(parent_id)]
             if len(item) == 0:return None
@@ -163,8 +163,8 @@ class LocationManager:
 
     def get_parent_id(self, names):
         self.loc.get_data()
-        if len(names.split('.')) == 1: parent_id = 1
-        if len(names.split('.')) > 1: parent_id = self.loc.get_row(names.split('.')[:-1])[0]
+        if len(re.split(r'[.\s。-]+', names)) == 1: parent_id = 1
+        if len(re.split(r'[.\s。-]+', names)) > 1: parent_id = self.loc.get_row(re.split(r'[.\s。-]+', names)[:-1])[0]
         return parent_id
 
     def get_all_names(self, name):
@@ -189,7 +189,7 @@ class LocationManager:
             print("xpath无效，请检查")
             return "xpath无效，请检查"
 
-        name = names if names.split('.') == 1 else names.split('.')[-1]
+        name = names if re.split(r'[.\s。-]+', names) == 1 else re.split(r'[.\s。-]+', names)[-1]
 
         if parent_id == '':parent_id = self.get_parent_id(names)
 
@@ -217,11 +217,11 @@ class LocationManager:
         self.loc.get_data()
 
         result = ""
-        if len(names.split('.')) == 0:
+        if len(re.split(r'[.\s。-]+', names)) == 0:
             result += "元素路径不能为空"
             return result
 
-        name = names if names.split('.') == 1 else names.split('.')[-1]
+        name = names if re.split(r'[.\s。-]+', names) == 1 else re.split(r'[.\s。-]+', names)[-1]
 
         if parent_id == '':parent_id = self.get_parent_id(names)
 

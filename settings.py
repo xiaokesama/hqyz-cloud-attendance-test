@@ -9,13 +9,13 @@ sys.path.append(ROOT_DIR)
 LOCAL_IP = '127.0.0.1:9999'
 
 # 网页地址
-IP_ADDRESS = 'https://172.168.80.53/'
+IP_ADDRESS = 'https://172.168.80.102/'
 LOGIN_URL = IP_ADDRESS + 'user/login'
 MAIN_URL = IP_ADDRESS + 'dashboard/analysis'
 
 # 账号密码
 USER_INFO = {
-    'username': 'autoTest',
+    'username': 'AA',
     'password': 'xk123456'
 }
 

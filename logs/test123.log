@@ -438,3 +438,107 @@
 2024-08-19 15:07:40,816 INFO [test123] [base.py (assertEqual:19] - 执行断言
 2024-08-19 15:07:40,816 INFO [test123] [base.py (assertEqual:21] - 区域1 == 区域1
 2024-08-19 15:07:41,820 INFO [test123] [base.py (execute:186] - ==========001号用例：新增区域 - 区域1测试结束==========
+2024-10-25 10:08:53,206 INFO [test123] [base.py (execute:145] - ==========001号用例：新增区域 - 区域1测试开始==========
+2024-10-25 10:08:53,207 INFO [test123] [base.py (parse_param:132] - 解析参数：['设备管理']
+2024-10-25 10:08:53,208 INFO [test123] [base.py (parse_param:139] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[2]/div/span/span']
+2024-10-25 10:08:53,209 INFO [test123] [base.py (execute:170] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/div/span/span']
+2024-10-25 10:08:54,542 INFO [test123] [base.py (parse_param:132] - 解析参数：['设备管理.区域管理']
+2024-10-25 10:08:54,542 INFO [test123] [base.py (parse_param:139] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[2]/ul/li[1]/a']
+2024-10-25 10:08:54,542 INFO [test123] [base.py (execute:170] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/ul/li[1]/a']
+2024-10-25 10:08:55,691 INFO [test123] [base.py (parse_param:132] - 解析参数：['设备管理.区域管理.新增区域']
+2024-10-25 10:08:55,691 INFO [test123] [base.py (parse_param:139] - 解析结果：['xpath://*[@id="step3"]']
+2024-10-25 10:08:55,692 INFO [test123] [base.py (execute:170] - 执行click动作，输入参数为['xpath://*[@id="step3"]']
+2024-10-25 10:09:05,694 ERROR [test123] [base.py (execute:178] - 执行click动作出错,进行了截图，名称为：001_新增区域 - 区域1.png
+2024-10-25 10:09:05,694 ERROR [test123] [base.py (execute:183] - 截图出错
+2024-10-25 10:12:39,821 INFO [test123] [base.py (execute:145] - ==========001号用例：新增区域测试开始==========
+2024-10-25 10:12:39,822 INFO [test123] [base.py (parse_param:132] - 解析参数：['设备管理']
+2024-10-25 10:12:39,824 INFO [test123] [base.py (parse_param:139] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[2]/div/span/span']
+2024-10-25 10:12:39,825 INFO [test123] [base.py (execute:170] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/div/span/span']
+2024-10-25 10:12:41,170 INFO [test123] [base.py (parse_param:132] - 解析参数：['设备管理.区域管理']
+2024-10-25 10:12:41,170 INFO [test123] [base.py (parse_param:139] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[2]/ul/li[1]/a']
+2024-10-25 10:12:41,170 INFO [test123] [base.py (execute:170] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[2]/ul/li[1]/a']
+2024-10-25 10:12:42,319 INFO [test123] [base.py (parse_param:132] - 解析参数：['1', '1']
+2024-10-25 10:12:42,319 INFO [test123] [base.py (parse_param:139] - 解析结果：['1', '1']
+2024-10-25 10:12:42,320 INFO [test123] [base.py (execute:157] - 执行断言assertEqual，参数为['1', '1']
+2024-10-25 10:12:42,320 INFO [test123] [base.py (assertEqual:19] - 执行断言
+2024-10-25 10:12:42,320 INFO [test123] [base.py (assertEqual:21] - 1 == 1
+2024-10-25 10:12:43,332 INFO [test123] [base.py (execute:186] - ==========001号用例：新增区域测试结束==========
+2025-01-13 16:05:23,269 INFO [test123] [base.py (execute:150] - ==========002号用例：添加人员测试开始==========
+2025-01-13 16:05:23,270 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理']
+2025-01-13 16:05:23,271 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:05:23,271 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:05:24,685 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理.人员列表']
+2025-01-13 16:05:24,687 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:05:24,687 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:05:25,875 INFO [test123] [base.py (parse_param:139] - 解析参数：['1', '1']
+2025-01-13 16:05:25,875 INFO [test123] [base.py (parse_param:146] - 解析结果：['1', '1']
+2025-01-13 16:05:25,875 INFO [test123] [base.py (execute:162] - 执行断言assertEqual，参数为['1', '1']
+2025-01-13 16:05:25,875 INFO [test123] [base.py (assertEqual:19] - 执行断言
+2025-01-13 16:05:25,875 INFO [test123] [base.py (assertEqual:21] - 1 == 1
+2025-01-13 16:05:26,888 INFO [test123] [base.py (execute:191] - ==========002号用例：添加人员测试结束==========
+2025-01-13 16:08:15,701 INFO [test123] [test_all_cases.py (test_execute_normal:33] - Start to execute test case: 添加人员
+2025-01-13 16:08:15,701 INFO [test123] [base.py (execute:150] - ==========001号用例：添加人员测试开始==========
+2025-01-13 16:08:15,704 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理']
+2025-01-13 16:08:15,713 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:08:15,836 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:08:17,033 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表']
+2025-01-13 16:08:17,034 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:08:17,034 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:08:18,219 INFO [test123] [base.py (parse_param:139] - 解析参数：['1', '1']
+2025-01-13 16:08:18,219 INFO [test123] [base.py (parse_param:146] - 解析结果：['1', '1']
+2025-01-13 16:08:18,219 INFO [test123] [base.py (execute:162] - 执行断言assertEqual，参数为['1', '1']
+2025-01-13 16:08:18,220 INFO [test123] [base.py (assertEqual:19] - 执行断言
+2025-01-13 16:08:18,220 INFO [test123] [base.py (assertEqual:21] - 1 == 1
+2025-01-13 16:08:19,220 INFO [test123] [base.py (execute:191] - ==========001号用例：添加人员测试结束==========
+2025-01-13 16:12:28,661 INFO [test123] [test_all_cases.py (test_execute_normal:33] - Start to execute test case: 添加人员
+2025-01-13 16:12:28,662 INFO [test123] [base.py (execute:150] - ==========001号用例：添加人员测试开始==========
+2025-01-13 16:12:28,663 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理']
+2025-01-13 16:12:28,665 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:12:28,785 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:12:29,971 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表']
+2025-01-13 16:12:29,971 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:12:29,972 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:12:31,159 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表。新增人员']
+2025-01-13 16:12:31,160 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/section/main/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/button[1]']
+2025-01-13 16:12:31,160 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/section/main/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/button[1]']
+2025-01-13 16:12:32,311 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表。新增人员。人员照片', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:12:32,312 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath:/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:12:32,313 INFO [test123] [base.py (execute:175] - 执行my_to_upload动作，输入参数为['xpath:/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:12:42,333 ERROR [test123] [base.py (my_to_upload:105] - 向xpath:/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span上传C:\Users\11932\Desktop\xiaoke\人物照片\人员和图片\WXPicture\Picture1\姚玉友.jpg失败
+2025-01-13 16:12:42,333 ERROR [test123] [base.py (execute:183] - 执行my_to_upload动作出错,进行了截图，名称为：001_添加人员.png
+2025-01-13 16:35:59,873 INFO [test123] [test_all_cases.py (test_execute_normal:33] - Start to execute test case: 添加人员
+2025-01-13 16:35:59,874 INFO [test123] [base.py (execute:150] - ==========001号用例：添加人员测试开始==========
+2025-01-13 16:35:59,874 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理']
+2025-01-13 16:35:59,875 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:35:59,876 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:36:01,063 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表']
+2025-01-13 16:36:01,063 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:36:01,064 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:36:02,256 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表。新增人员']
+2025-01-13 16:36:02,256 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/section/main/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/button[1]']
+2025-01-13 16:36:02,257 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/section/main/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/button[1]']
+2025-01-13 16:36:03,419 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表。新增人员。人员照片', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:36:03,420 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath:/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:36:03,420 INFO [test123] [base.py (execute:175] - 执行my_to_upload动作，输入参数为['xpath:/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:36:13,520 ERROR [test123] [base.py (my_to_upload:105] - 向xpath:/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span上传C:\Users\11932\Desktop\xiaoke\人物照片\人员和图片\WXPicture\Picture1\姚玉友.jpg失败
+2025-01-13 16:36:13,521 ERROR [test123] [base.py (execute:183] - 执行my_to_upload动作出错,进行了截图，名称为：001_添加人员.png
+2025-01-13 16:38:29,691 INFO [test123] [test_all_cases.py (test_execute_normal:33] - Start to execute test case: 添加人员
+2025-01-13 16:38:29,692 INFO [test123] [base.py (execute:150] - ==========001号用例：添加人员测试开始==========
+2025-01-13 16:38:29,692 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理']
+2025-01-13 16:38:29,694 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:38:29,695 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/div/span/span']
+2025-01-13 16:38:31,050 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表']
+2025-01-13 16:38:31,051 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:38:31,052 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/aside/div/ul/li[3]/ul/li[1]/a']
+2025-01-13 16:38:32,247 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表。新增人员']
+2025-01-13 16:38:32,247 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath://*[@id="app"]/section/section/main/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/button[1]']
+2025-01-13 16:38:32,248 INFO [test123] [base.py (execute:175] - 执行click动作，输入参数为['xpath://*[@id="app"]/section/section/main/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/button[1]']
+2025-01-13 16:38:33,414 INFO [test123] [base.py (parse_param:139] - 解析参数：['人员管理。人员列表。新增人员。人员照片', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:38:33,414 INFO [test123] [base.py (parse_param:146] - 解析结果：['xpath:/html/body/div[2]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:38:33,414 INFO [test123] [base.py (execute:175] - 执行my_to_upload动作，输入参数为['xpath:/html/body/div[2]/div/div[2]/div/div/div[2]/div[1]/div/form/div[1]/div/div[2]/div/span/div/span/div[2]/span', 'C:\\Users\\11932\\Desktop\\xiaoke\\人物照片\\人员和图片\\WXPicture\\Picture1\\姚玉友.jpg']
+2025-01-13 16:38:34,697 INFO [test123] [base.py (parse_param:139] - 解析参数：['1', '1']
+2025-01-13 16:38:34,697 INFO [test123] [base.py (parse_param:146] - 解析结果：['1', '1']
+2025-01-13 16:38:34,698 INFO [test123] [base.py (execute:162] - 执行断言assertEqual，参数为['1', '1']
+2025-01-13 16:38:34,698 INFO [test123] [base.py (assertEqual:19] - 执行断言
+2025-01-13 16:38:34,698 INFO [test123] [base.py (assertEqual:21] - 1 == 1
+2025-01-13 16:38:35,700 INFO [test123] [base.py (execute:191] - ==========001号用例：添加人员测试结束==========

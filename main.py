@@ -26,8 +26,4 @@ if __name__ == '__main__':
     pytest.main(args)
     os.system('allure generate ./reports/temp -o ./reports/report --clean')
 
-
-# 运行命令示例：python main.py -m one
-# 运行命令示例：python main.py -m all
-# 运行命令示例：python main.py -m single
 # 运行命令示例：python main.py -m normal
