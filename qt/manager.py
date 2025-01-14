@@ -1,8 +1,14 @@
-from PyQt6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox, QLabel
+from PyQt6.QtWidgets import QApplication, QMainWindow
 from PyQt6 import uic
 import sys
-
 from common import manager
+from DrissionPage import ChromiumPage
+from settings import LOCAL_IP
+
+
+def openChrome():
+    page = ChromiumPage(addr_driver_opts=LOCAL_IP)
+    page.get("https://172.168.80.102/dashboard/analysis")
 
 
 def get_inputs():
@@ -49,6 +55,7 @@ def main():
 
 
 if __name__ == '__main__':
+    openChrome()
     app = QApplication(sys.argv)
     window = QMainWindow()
     ui = uic.loadUi('manager.ui')

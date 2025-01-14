@@ -6,7 +6,9 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(ROOT_DIR)
 
 # 本机IP地址和端口
-LOCAL_IP = '127.0.0.1:9999'
+LOCALHOST = '127.0.0.1'
+PORT = '9999'
+LOCAL_IP = LOCALHOST + ':' + PORT
 
 # 网页地址
 IP_ADDRESS = 'https://172.168.80.102/'

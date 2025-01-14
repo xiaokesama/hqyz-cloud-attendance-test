@@ -5,6 +5,7 @@ from DrissionPage._pages.chromium_page import ChromiumPage
 import settings
 import re
 
+
 def convert_to_tree(data):
     def build_tree(node, data):
         children = [d for d in data if str(d['parent_id']) == str(node['id'])]
@@ -151,7 +152,7 @@ class LocationManager:
         self.loc = Location(settings.SQLITE_DB_PATH)
         self.page = None
     
-    def get_page(self, port=9999):
+    def get_page(self, port=settings.PORT):
         # 打开浏览器
         co = ChromiumOptions()
         co.ignore_certificate_errors()

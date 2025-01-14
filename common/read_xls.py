@@ -71,4 +71,4 @@ class ReadXlsx:
 
 
 if __name__ == '__main__':
-    print(ReadXlsx(CASE_TABLE).read_case_by_id("002"))
+    print(ReadXlsx(CASE_TABLE).read_cases("all"))
