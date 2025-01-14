@@ -151,7 +151,7 @@ class LocationManager:
         self.loc = Location(settings.SQLITE_DB_PATH)
         self.page = None
     
-    def get_page(self, port=9527):
+    def get_page(self, port=9999):
         # 打开浏览器
         co = ChromiumOptions()
         co.ignore_certificate_errors()

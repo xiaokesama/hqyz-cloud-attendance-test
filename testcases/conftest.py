@@ -12,6 +12,10 @@ import settings
 from time import sleep
 
 
+def pytest_addoption(parser):
+    parser.addoption("--case_id", action="store", default=None, help="Case ID to run")
+
+
 def get_captcha_code(page):
     url = page.ele("xpath://*[@class='user-layout-login ant-form ant-form-horizontal']//img").attr('src')
     binary_data = base64.b64decode(url[22:])

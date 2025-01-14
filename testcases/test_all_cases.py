@@ -10,8 +10,9 @@ from common.read_xls import ReadXlsx
 class TestAllCases:
 
     @pytest.mark.one
-    @pytest.mark.parametrize("test_case", ReadXlsx(CASE_TABLE).read_case_by_id("001"))
-    def test_execute_one(self, test_case, main_page):
+    def test_execute_one(self, request, main_page):
+        case_id = request.config.getoption("--case_id")
+        test_case = ReadXlsx(CASE_TABLE).read_case_by_id(case_id)[0]
         executor = ActionExecutor(main_page)
         executor.execute(test_case)
 
