@@ -33,12 +33,11 @@ class ReadXlsx:
         if not sheet_name:
             sheets = []
             for _ in self.workbook.sheetnames:
-                if _ not in ["录入", "清除",'单个']:
+                if _ not in ["录入", "清除"]:
                     sheets.append(self.workbook[_])
             return sheets
         if sheet_name == "录入": return [self.workbook["录入"]]
         if sheet_name == "清除": return [self.workbook["清除"]]
-        if sheet_name == '单个': return [self.workbook['单个']]
         if sheet_name.lower() == "all": return self.workbook.worksheets
 
     # 获取用例列表

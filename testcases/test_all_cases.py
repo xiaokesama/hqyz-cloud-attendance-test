@@ -40,9 +40,3 @@ class TestAllCases:
     def test_execute_clean(self, test_case, main_page):
         executor = ActionExecutor(main_page)
         executor.execute(test_case)
-
-    @pytest.mark.single
-    @pytest.mark.parametrize("test_case", single_case)
-    def test_execute_clean(self, test_case, main_page):
-        executor = ActionExecutor(main_page)
-        executor.execute(test_case)
