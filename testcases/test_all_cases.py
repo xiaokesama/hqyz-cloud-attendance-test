@@ -9,34 +9,7 @@ from common.read_xls import ReadXlsx
 
 class TestAllCases:
 
-    @pytest.mark.one
-    def test_execute_one(self, request, main_page):
-        case_id = request.config.getoption("--case_id")
-        test_case = ReadXlsx(CASE_TABLE).read_case_by_id(case_id)[0]
-        executor = ActionExecutor(main_page)
-        executor.execute(test_case)
+    def test_execute(self, case, main_page):
+        ActionExecutor(main_page).execute(case)
 
-    @pytest.mark.all
-    @pytest.mark.parametrize("test_case", all_cases)
-    def test_execute_all(self, test_case, main_page):
-        executor = ActionExecutor(main_page)
-        executor.execute(test_case)
 
-    @pytest.mark.upload
-    @pytest.mark.parametrize("test_case", upload_cases)
-    def test_execute_upload(self, test_case, main_page):
-        executor = ActionExecutor(main_page)
-        executor.execute(test_case)
-
-    @pytest.mark.normal
-    @pytest.mark.parametrize("test_case", ReadXlsx(CASE_TABLE).read_cases())
-    def test_execute_normal(self, test_case, main_page):
-        logger.info(f"Start to execute test case: {test_case['name']}")
-        executor = ActionExecutor(main_page)
-        executor.execute(test_case)
-
-    @pytest.mark.clean
-    @pytest.mark.parametrize("test_case", clean_cases)
-    def test_execute_clean(self, test_case, main_page):
-        executor = ActionExecutor(main_page)
-        executor.execute(test_case)
